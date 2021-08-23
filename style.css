@@ -21,8 +21,30 @@ p {
   padding: 10px;
 }
 .content {
+  width: 100vw;
+  text-align: center;
+}
+.paragraphs {
   margin: auto;
   width: 50vw;
+}
+button {
+  font-size: 20px;
+  padding: 10px;
+  width: 150px;
+  background-color: #6d0020;
+  color: white;
+  border: none;
+  border-radius: 20px 0 20px 0;
+  transition: 0.1s;
+}
+button:hover {
+  border-radius: 0 20px 0 20px;
+}
+button:active {
+  background-color: white;
+  border: solid #6d0020 2px;
+  color: #6d0020;
 }
 footer {
   text-align: center;
