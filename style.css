@@ -48,11 +48,10 @@ button {
 button:hover {
   border-radius: 0 20px 0 20px;
   cursor: pointer;
+  transform: scale(1.1);
 }
 button:active {
-  background-color: white;
-  border: solid #6d0020 2px;
-  color: #6d0020;
+  transform: translateY(10px);
 }
 footer {
   width: 100%;
